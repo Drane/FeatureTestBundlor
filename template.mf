@@ -3,9 +3,9 @@ Excluded-Exports:
 Manifest-Version: 1.0
 Unversioned-Imports: *
 Bundle-Classpath: .
-Bundle-Name: Foo Bar Bundle
+Bundle-Name: Feature Test Bundlor Bundle
 Bundle-Version: 0.1.0
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.foo.bar
+Bundle-SymbolicName: com.prefabsoft.osgi.test.featuretestbundlor
 Import-Bundle: org.springframework.osgi.core;version="1.2.1"
-Import-Package: com.foo.bar.client;version="0.1.0"
+Import-Package: com.prefabsoft.osgi.test.featuretestbundlor.client;version="0.1.0"
