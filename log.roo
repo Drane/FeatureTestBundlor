@@ -1,0 +1,8 @@
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-06-06 19:36:05
+project --topLevelPackage com.prefabsoft --projectName FeatureTestBundlor --java 6
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-06-06 19:36:05
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-06-06 19:36:09
+persistence setup --database H2_IN_MEMORY --provider HIBERNATE 
+entity --class ~.domain.FakeDomainEntity
+field string name
+controller all --package ~.web
